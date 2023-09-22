@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Drawing App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="canvas-container">
+        <canvas id="drawing-canvas"></canvas>
+    </div>
+    <div class="tools">
+        <button id="clear-btn" class="button">Clear</button>
+        <button id="save-btn" class="button">Save</button>
+        <div class="color-picker-container">
+            <input type="color" id="colorPicker" class="color-picker" value="#000000">
+        </div>
+        <input type="range" id="brushSize" class="brush-size" min="1" max="50" value="7">
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
